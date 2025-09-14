@@ -25,6 +25,14 @@ int main()
             }
         }
         printf(" %ld converted to base %ld is: \n", num, base);
+
+        if (base == 8){
+            printf("0");
+        }
+        if (base == 16){
+            printf("0x");
+        }
+        
         to_base_n(num, base);
         printf("\n");
     }
